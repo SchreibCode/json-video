@@ -1,5 +1,4 @@
-// BEISPIEL 1.
-// JSON ÜBER MIT API ABRUFEN
+// BEISPIEL 1. - JSON ÜBER MIT API ABRUFEN
 
 /*
  * So könnte man JSON mit der fetch Funktion
@@ -21,8 +20,7 @@ const jsonMitAPIBeispiel = async () => {
 
 jsonMitAPIBeispiel();
 
-// BEISPIEL 2.
-// MIT JSON LOKAL ARBEITEN
+// BEISPIEL 2. - MIT JSON LOKAL ARBEITEN
 
 /*
  * Es gibt noch mehr Möglichkeiten mit JSON zu arbeiten
@@ -48,7 +46,7 @@ const jsonAlsTextBeispiel = () => {
 
     console.log(`The Rock folgt ${profile.followingCount} Profilen`);
 
-    console.log(`The Rock hat: ${profile.postCount} mal geposted`);
+    console.log(`The Rock hat ${profile.postCount} mal geposted`);
 
     /* Es geht auch andersrum: JavaScript
      * Objekte können in JSON verwandelt werden um sie an einen Server zu schicken
