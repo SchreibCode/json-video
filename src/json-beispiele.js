@@ -4,18 +4,23 @@
  * So könnte man JSON mit der fetch Funktion
  * von einem Server abrufen
  */
-const jsonMitAPIBeispiel = async () => {
-    // Hier wird auf die Antwort des Servers gewartet
-    const response = await fetch("./src/profile.json");
+const jsonMitAPIBeispiel = () => {
+    fetch("./src/profile.json")
+        // Hier wird auf die Antwort des Servers gewartet
+        .then((response) => {
+            return response.json();
+        })
+        // Der "Antwort Fluss" wird gelesen, als JSON interpretiert und in ein JavaScript Objekt verwandelt
+        .then((profile) => {
+            console.log(`The Rock hat ${profile.followerCount} follower`);
 
-    // Der "Antwort Fluss" wird gelesen, als JSON interpretiert und in ein JavaScript Objekt verwandelt
-    const profile = await response.json();
-
-    console.log(`The Rock hat ${profile.followerCount} follower`);
-
-    console.log(
-        `The Rock´s Instagram Profil Bescheibung: ${profile.description}`
-    );
+            console.log(
+                `The Rock´s Instagram Profil Bescheibung: ${profile.description}`
+            );
+        })
+        .catch((error) => {
+            console.log(error);
+        });
 };
 
 jsonMitAPIBeispiel();

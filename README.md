@@ -1,8 +1,10 @@
-# Thema
+<img src="https://github.com/SchreibCode/json-video/blob/main/img/json-2.jpg" width="450" alt="Youtube Thumbnail"/>
 
-- In diesem Repository findest du den Code zum Video: "Videotitel".
+# JSON
+
+- In diesem Repository findest du den Code zum Video: "Lern JSON in 21 Minuten - Deutsches Tutorial".
 - Falls du das Video noch nicht gesehen hast kannst du es hier: 
-[Link zum Video](https://www.youtube.com) anschauen.
+[Link zum Video](https://youtu.be/wKmzfmiphXY) anschauen.
 
 ## Wie kriege ich den Code?
 
@@ -13,8 +15,5 @@
 
 ## Es funktioniert nicht / Ich habe kein git
 
-- Option 1: [Installiere git](https://www.atlassian.com/de/git/tutorials/install-git) 
-- Option 2: Lade dir den Code als ZIP Datei runter. Die Option findest du auch wenn du auf den grünen Button klickst.
-
-
-
+-   Option 1: [Installiere git](https://www.atlassian.com/de/git/tutorials/install-git)
+-   Option 2: Lade dir den Code als ZIP Datei runter. Die Option findest du auch wenn du auf den grünen Button klickst.
