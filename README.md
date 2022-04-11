@@ -4,7 +4,7 @@
 
 -   In diesem Repository findest du den Code zum Video: "Lern JSON in 21 Minuten - Deutsches Tutorial".
 -   Falls du das Video noch nicht gesehen hast kannst du es hier:
-    [Link zum Video](https://youtu.be/wKmzfmiphXY) anschauen.
+    [Link zum Video](https://youtu.be/SHxqd1E4MmY) anschauen.
 
 ## Wie kriege ich den Code?
 
